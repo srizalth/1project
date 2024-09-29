@@ -25,6 +25,8 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 12%;
+    width: 80%;
+    margin: auto ;
 }
 
 .navbar ul li{
@@ -42,16 +44,33 @@ body{
 
 .navbar ul li::after{
     height: 2px;
-    background: #9a9a9a;
+    background-color: #9a9a9a;
     position: absolute;
     left: 0;
     bottom: -5px;
+    width: 0;
     content: '';
-    transition: 0.5s;
+    transition: 1s width;
 }
 
 .navbar ul li:hover::after{
     width: 100%;
+}
+
+.navbar ul li:not(:hover)::after{
+    right: 0;
+    left:auto;
+
+}
+
+/** Body Part **/
+
+.container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .midcontent{
@@ -60,6 +79,9 @@ body{
     font-size: 22px;
 }
 
+.midcontent p {
+    margin-top:50px ;
+}
 
 
 /** FOOTER */
@@ -67,7 +89,6 @@ body{
 footer{
     width: 100%;
     height: 17%;
-    margin-top: 65vh;
     }
    
 
