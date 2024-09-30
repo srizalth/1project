@@ -5,18 +5,18 @@
 }
 
 body{
-    background-image: url(background.jpg);
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center; 
-    height: 100vh;
+    height: 100%;
 }
 
 
 /**TOP PART**/
 
 .logo{
-    height: 150px;
+    height: 100px;
     cursor: pointer;
     }
 
@@ -67,7 +67,7 @@ body{
 
 .container{
     width: 100%;
-    height: 70%;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,14 +106,17 @@ footer{
     text-decoration: none;
     padding:5px;
     background-color: white;
+    width: 45px;
     margin: 12px;
     border-radius: 32%;
-}
+}  
 
 .socialIcons a i{
     font-size: 2em;
     color: black;
-    opacity: 0,9;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
 }
 
 .socialIcons a:hover{
@@ -141,4 +144,82 @@ footer{
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
+}
+
+.box img{
+    width: 100%;
+    height: 230px;
+    border-radius: 10px 10px 0 0;
+}
+
+.container-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px 50px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.services-container h2{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #9a9a9a;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.box{
+    background-color: rgba(198, 193, 193, 0.8);
+    margin: 25px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.description{
+    padding: 10px;
+}
+
+.description h3{
+    font: 30px;
+    text-align: center;
+}
+
+.description p{
+    font-size: 17px;
+}
+
+.box:hover .image{
+    transform: scale(1.1);
+}
+
+.box .image{
+    transition: 0.2s all ease-in-out;
+    
+}
+
+.about-us{
+    background-color: #9a9a9a;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin:70px auto;
+    border-radius: 10px;   
+    color: white; 
+}
+
+.about-us h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-us p{
+    font-size: 30px;
+    font-weight: 900;
 }
