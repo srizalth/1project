@@ -47,6 +47,6 @@ document.addEventListener("DOMContentLoaded", function() {
       // Log the JSON data to the console
       console.log(jsonData);
       
-      alert("Form data saved successfully in JSON format. Check console for details.");
+      alert("Form data saved successfully. Please contact us from social media handles to get more information.");
   });
 });
