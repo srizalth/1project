@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
           }
       });
 
-      // Creates an object to hold the data
+      // Creates an object to hold the data (Sav store)
       const formData = {
           name: nameInput.value,
           email: emailInput.value,
