@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Convert the object to JSON format
       const jsonData = JSON.stringify(formData, null, 2);
 
-      // Log the JSON data to the console
+      // Log the JSON data to the console (For debugging purposes (aaileko lagi))
       console.log(jsonData);
       
       alert("Form data saved successfully. Please contact us from social media handles to get more information.");
