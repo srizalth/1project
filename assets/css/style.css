@@ -419,3 +419,29 @@ margin: 35px 0px;
     color: #fff;
 }
 
+.highlight-text p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.highlight-text a {
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.image-gallery img {
+    width: 15%;
+    border-radius: 5px;
+    object-fit: cover;
+}
