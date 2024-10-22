@@ -398,6 +398,7 @@ margin: 35px 0px;
 }
 
 /* Container for layout */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -446,6 +447,8 @@ margin: 35px 0px;
     object-fit: cover;
 }
 
+/* Its for gifs hover features */
+
 .pop-up-gif {
     opacity: 0;
     width: 300px;
@@ -455,7 +458,7 @@ margin: 35px 0px;
 }
 
 .pop-up-gif:hover {
-    opacity: 1; 
+    opacity: 1; /* its for visibility of the content */
     transform: scale(1.7);
     z-index: 10;
 }
