@@ -397,4 +397,25 @@ margin: 35px 0px;
     }
 }
 
+/* Container for layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.career-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.highlight-text {
+    width: 30%;
+}
+
+.highlight-text h2 {
+    font-size: 2em;
+    color: #fff;
+}
 
