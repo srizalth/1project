@@ -437,11 +437,25 @@ margin: 35px 0px;
 .image-gallery {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 100%;
 }
 
 .image-gallery img {
     width: 15%;
     border-radius: 5px;
     object-fit: cover;
+}
+
+.pop-up-gif {
+    opacity: 0;
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transform: scale(0.8);
+}
+
+.pop-up-gif:hover {
+    opacity: 1; 
+    transform: scale(1.7);
+    z-index: 10;
 }
